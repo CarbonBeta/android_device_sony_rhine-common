@@ -66,13 +66,15 @@ PRODUCT_PACKAGES += \
    libbt-vendor
 
 # BoringSSL hacks
-#PRODUCT_PACKAGES += \
-#    libboringssl-compat
+PRODUCT_PACKAGES += \
+    libboringssl-compat
 
 # Camera
 PRODUCT_PACKAGES += \
     tad_static \
     wait4tad_static \
+    libshim_cald \
+    libshim_camera \
     libshim_atomic \
     libstlport 
 
